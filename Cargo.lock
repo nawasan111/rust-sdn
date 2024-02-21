@@ -12,14 +12,5 @@ checksum = "1fd0f2584146f6f2ef48085050886acf353beff7305ebd1ae69500e27c67f64b"
 name = "rust-sdn"
 version = "0.1.0"
 dependencies = [
- "rust_ofp",
-]
-
-[[package]]
-name = "rust_ofp"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4dac14c69d59c8f6b5bfca98589ead113d4b62b8a7eb6796303f4cf3aa73b9e7"
-dependencies = [
  "byteorder",
 ]
